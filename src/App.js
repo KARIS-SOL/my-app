@@ -13,7 +13,8 @@ import State2 from './components/State2';
 import Counter from './components/Counter';
 import Condition from './components/Condition';
 import Feel from './components/Feel';
-
+import ClassState from './components/ClassState';
+import StateAndVariable from './components/StateAndVariable';
 function App() {
   
   // function amazingJSX() {
@@ -45,10 +46,12 @@ function App() {
       {/* <State2 /> */}
       {/* <Counter /> */}
       {/* <Condition /> */}
-      <Feel />
+      {/* <Feel /> */}
+      {/* <ClassState /> */}
+      <StateAndVariable />
+
       </div>
   );
 }
-
 
 export default App;
