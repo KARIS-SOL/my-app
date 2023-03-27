@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  // React.StrictMode 안에 감싸져있는애들은 두번실행시킴 
   <React.StrictMode>
     <App />
   </React.StrictMode>
