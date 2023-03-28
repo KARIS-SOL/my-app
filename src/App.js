@@ -15,6 +15,14 @@ import Condition from './components/Condition';
 import Feel from './components/Feel';
 import ClassState from './components/ClassState';
 import StateAndVariable from './components/StateAndVariable';
+import StateProblem from './components/StateProblem';
+import List from './components/List';
+import PropsHeader from './components/PropsHeader';
+import MultiProps from './components/MultiProps';
+import ClassProps from './components/ClassProps';
+import ListChild from './components/ListChild';
+import Item from './components/Item';
+import CustomList from './components/CustomList';
 function App() {
   
   // function amazingJSX() {
@@ -26,7 +34,8 @@ function App() {
   // }
 
   // const test = 'test';
-
+  const str = "Go Naver";
+  const nameArr = ['뽀로로', '루피', '크롱이'];
   return (
     <div className="App">
       {/* {amazingJSX()} */}
@@ -48,9 +57,18 @@ function App() {
       {/* <Condition /> */}
       {/* <Feel /> */}
       {/* <ClassState /> */}
-      <StateAndVariable />
-
-      </div>
+      {/* <StateAndVariable /> */}
+      {/* <StateProblem /> */}
+      {/* <List /> */}
+      {/* <PropsHeader text = "Hello, my first Props!" /> 
+      <PropsHeader text = "Bye, Props!" /> 
+      <PropsHeader text = "See ya, Props!"/> 
+      <MultiProps text = {str} href="https://naver.com" userID="tetz" /> */}
+      {/* <ClassProps /> */}
+      {/* <ListChild /> */}
+      {/* <Item /> */}
+      <CustomList  arr={nameArr}/>
+          </div>
   );
 }
 
