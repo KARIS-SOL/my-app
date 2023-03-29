@@ -23,52 +23,28 @@ import ClassProps from './components/ClassProps';
 import ListChild from './components/ListChild';
 import Item from './components/Item';
 import CustomList from './components/CustomList';
+import TestRef from './components/TestRef';
+import ChangeFocus from './components/ChangeFocus';
+import RefDomControl from './components/RefDomControl';
+import ColorInput from './components/ColorInput';
+import RandomQuiz from './components/RandomQuiz';
+
 function App() {
-  
   // function amazingJSX() {
   //   return 'amazingJSX';
   // }
-// strict 모드 때문에 2번 alert 뜸
+  // strict 모드 때문에 2번 alert 뜸
   // function alertFunc() {
   //   alert('JSX is amazing');
   // }
 
   // const test = 'test';
-  const str = "Go Naver";
-  const nameArr = ['뽀로로', '루피', '크롱이'];
+  // const str = 'Go Naver';
+  // const nameArr = ['뽀로로', '루피', '크롱이'];
   return (
     <div className="App">
-      {/* {amazingJSX()} */}
-      {/* {alertFunc()} */}
-      {/* <img src = {logo} alt ="로고" /> */}
-      {/* <div className= {test}>{typeof test === 'string' ? '문자열' : '문자열아님'}</div> */}
-      {/* {str} */}
-      {/* <ClassComponent />
-      <FunctionalComponent />
-      <MainHeader />
-      <ImgComponent />
-      <BtnToNaver />  */}
-      {/* <Inline />
-      <EventHandler /> */}
-      {/* <JsxEx /> */}
-      {/* <State /> */}
-      {/* <State2 /> */}
-      {/* <Counter /> */}
-      {/* <Condition /> */}
-      {/* <Feel /> */}
-      {/* <ClassState /> */}
-      {/* <StateAndVariable /> */}
-      {/* <StateProblem /> */}
-      {/* <List /> */}
-      {/* <PropsHeader text = "Hello, my first Props!" /> 
-      <PropsHeader text = "Bye, Props!" /> 
-      <PropsHeader text = "See ya, Props!"/> 
-      <MultiProps text = {str} href="https://naver.com" userID="tetz" /> */}
-      {/* <ClassProps /> */}
-      {/* <ListChild /> */}
-      {/* <Item /> */}
-      <CustomList  arr={nameArr}/>
-          </div>
+      <RandomQuiz />
+    </div>
   );
 }
 
