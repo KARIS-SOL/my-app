@@ -28,6 +28,7 @@ import ChangeFocus from './components/ChangeFocus';
 import RefDomControl from './components/RefDomControl';
 import ColorInput from './components/ColorInput';
 import RandomQuiz from './components/RandomQuiz';
+import Comparing from './components/Comparing';
 
 function App() {
   // function amazingJSX() {
@@ -43,7 +44,7 @@ function App() {
   // const nameArr = ['뽀로로', '루피', '크롱이'];
   return (
     <div className="App">
-      <RandomQuiz />
+      <Comparing />
     </div>
   );
 }
