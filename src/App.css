@@ -1,7 +1,16 @@
 .App {
-  text-align: center;
+  display: flex;
+  /* text-align: center; */
+  justify-content: space-between;
 }
 
+.App h1{
+  background-color: orange;
+}
+
+.App span {
+  background-color: skyblue;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

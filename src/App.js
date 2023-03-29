@@ -29,7 +29,7 @@ import RefDomControl from './components/RefDomControl';
 import ColorInput from './components/ColorInput';
 import RandomQuiz from './components/RandomQuiz';
 import Comparing from './components/Comparing';
-
+import ReactFrament from './components/ReactFrament';
 function App() {
   // function amazingJSX() {
   //   return 'amazingJSX';
@@ -44,7 +44,7 @@ function App() {
   // const nameArr = ['뽀로로', '루피', '크롱이'];
   return (
     <div className="App">
-      <Comparing />
+      <ReactFrament />
     </div>
   );
 }
