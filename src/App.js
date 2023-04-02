@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
-import PracticeTimerRender from './components/PracticeTimerRender';
-
+import ExampleStyled from './components/ExampleStyled';
+// import './App.css';
+import TestStyled from './components/TestStyled';
 function App() {
   // function amazingJSX() {
   //   return 'amazingJSX';
@@ -16,7 +16,8 @@ function App() {
   // const nameArr = ['뽀로로', '루피', '크롱이'];
   return (
     <div className="App">
-      <PracticeTimerRender />
+      <ExampleStyled />
+      <ExampleStyled />
     </div>
   );
 }
