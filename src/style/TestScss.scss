@@ -1,0 +1,12 @@
+div.div-base {
+  background-color: orange;
+  & > h1 {
+    color: blue;
+  }
+
+  span {
+    background-color: hotpink;
+    font-weight: bold;
+  }
+}
+

@@ -1,7 +1,8 @@
 import React from 'react';
-import ExampleStyled from './components/ExampleStyled';
-// import './App.css';
-import TestStyled from './components/TestStyled';
+import './App.css';
+import FancyBorder from './components/FancyBorder';
+import ImgComponent2 from './components/ImgComponent2';
+
 function App() {
   // function amazingJSX() {
   //   return 'amazingJSX';
@@ -16,8 +17,11 @@ function App() {
   // const nameArr = ['뽀로로', '루피', '크롱이'];
   return (
     <div className="App">
-      <ExampleStyled />
-      <ExampleStyled />
+      <FancyBorder color="blue">
+        <h1>Hello props.children</h1>
+        <p>이건 매우 유용한 것 </p>
+        <ImgComponent2 />
+      </FancyBorder>
     </div>
   );
 }
